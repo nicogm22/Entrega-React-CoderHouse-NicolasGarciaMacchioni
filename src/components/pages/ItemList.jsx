@@ -3,7 +3,7 @@
 
 const ItemList = ({greeting}) => {
   return (
-    <div> {greeting} </div>
+    <div style={{textAlign: "center", fontSize: "44px"}}> {greeting} </div>
   )
 }
 

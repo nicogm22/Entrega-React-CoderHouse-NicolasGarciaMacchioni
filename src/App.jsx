@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <ItemListContainer greeting={ "Bienvenido!"}/>
+      <ItemListContainer greeting={ "Bienvenido a MAXStrong!"}/>
       
     </div>
   )
