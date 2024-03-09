@@ -19,7 +19,7 @@ export let products = [
   },
   {
     id: 3,
-    title: "Maquina de Abductor Profesional",
+    title: "Maquina de Abductor ",
     price: 620000,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
@@ -28,7 +28,7 @@ export let products = [
   },
   {
     id: 4,
-    title: "Maquina de Gemelos Sentado Profesional",
+    title: "Maquina de Gemelos ",
     price: 650000,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
@@ -46,7 +46,7 @@ export let products = [
   },
   {
     id: 6,
-    title: "Maquina de Biceps Sentado Profesional",
+    title: "Maquina de Biceps Sentado ",
     price: 630000,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
