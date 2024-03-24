@@ -2,7 +2,7 @@ export let products = [
   {
     id: 1,
     title: "Triangulo Para Polea Tipo V Acero Macizo",
-    price: 34000,
+    price: 34322,
     description: "Reforzado para mejor tracción",
     img: "https://res.cloudinary.com/dpjmphxvz/image/upload/v1709968200/imquid9pcjaalyly3gbw.webp",
     stock: 12,
@@ -11,7 +11,7 @@ export let products = [
   {
     id: 2,
     title: "Set Mancuernas Hexagonales",
-    price: 152000,
+    price: 152185,
     stock: 5,
     description: "Engomadas de 10kg",
     category: "accesorios",
@@ -19,8 +19,8 @@ export let products = [
   },
   {
     id: 3,
-    title: "Maquina de Abductor ",
-    price: 620000,
+    title: "Maquina de Abductor",
+    price: 623960,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
     category: "maquinas",
@@ -28,8 +28,8 @@ export let products = [
   },
   {
     id: 4,
-    title: "Maquina de Gemelos ",
-    price: 650000,
+    title: "Maquina de Gemelos",
+    price: 655490,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
     category: "maquinas",
@@ -38,7 +38,7 @@ export let products = [
   {
     id: 5,
     title: "Soga Jalon Para Triceps Topes",
-    price: 38000,
+    price: 38820,
     stock: 5,
     description: "Reforzada para mejor tracción",
     category: "accesorios",
@@ -46,8 +46,8 @@ export let products = [
   },
   {
     id: 6,
-    title: "Maquina de Biceps Sentado ",
-    price: 630000,
+    title: "Maquina de Biceps Sentado",
+    price: 633580,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
     category: "maquinas",
@@ -56,7 +56,7 @@ export let products = [
   {
     id: 7,
     title: "Máquina De Pecho Fly Deck",
-    price: 820000,
+    price: 824790,
     stock: 5,
     description: "La mejor calidad en maquinas de polea",
     category: "maquinas",

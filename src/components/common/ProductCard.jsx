@@ -8,6 +8,8 @@ import {
   Typography,
 } from "@mui/material";
 export const ProductCard = ({ img, title, description, price, id }) => {
+  // const  { titulo, desc, precio } = prop
+
   return (
     <Card sx={{ width: 345, height: 350, backgroundColor: "white" }}>
       <CardMedia sx={{ height: 140 }} image={img} title="green iguana" />
