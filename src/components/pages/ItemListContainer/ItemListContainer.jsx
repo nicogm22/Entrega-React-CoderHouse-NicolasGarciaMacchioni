@@ -15,7 +15,7 @@ const ItemListContainer = () => {
   useEffect(() => {
     let productsCollection = collection(db, "products");
 
-    let consulta = productsCollection; // el va saber a quien pedirle los documentos si a todos o a una parte
+    let consulta = productsCollection;
 
     if (category) {
       let productsCollectionFiltered = query(

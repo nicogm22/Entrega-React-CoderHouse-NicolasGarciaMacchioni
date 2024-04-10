@@ -51,6 +51,3 @@ export const CheckoutContainer = () => {
     />
   );
 };
-
-// put {title: das , price: 12 , stock: 12 - 3, }
-// patch  { stock: 12 - 3, }

@@ -3,7 +3,6 @@ import { createContext, useState } from "react";
 export const CartContext = createContext();
 
 const CartContextProvider = ({ children }) => {
-  // cart ---> [{}, {}]
   const [cart, setCart] = useState(
     JSON.parse(localStorage.getItem("cart")) || []
   );
@@ -63,7 +62,6 @@ const CartContextProvider = ({ children }) => {
   };
 
   const getTotalQuantityById = (id) => {
-    // si encuentra devuelve el elemento, si no, undefined
     let product = cart.find((elemento) => elemento.id === id);
 
     if (product) {

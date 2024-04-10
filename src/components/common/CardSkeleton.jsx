@@ -12,14 +12,12 @@ export const CardSkeleton = () => {
         overflow: "hidden",
       }}
     >
-      {/* For variant="text", adjust the height via font-size */}
       <Skeleton
         variant="rectangular"
         width={345}
         height={120}
         animation="wave"
       />
-      {/* For other variants, adjust the size with `width` and `height` */}
       <Box sx={{ display: "flex", justifyContent: "center" }}>
         <Skeleton variant="text" width={220} height={50} animation="wave" />
       </Box>

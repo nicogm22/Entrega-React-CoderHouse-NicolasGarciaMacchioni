@@ -3,14 +3,14 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(173, 65, 37);
+  background-color: rgb(95, 63, 236);
   align-items: center;
   padding: 10px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(199, 37, 37);
   font-weight: bold;
 }
 li {
@@ -24,9 +24,9 @@ li {
   gap: 20px;
 }
 .categories a {
-  background-color: beige;
+  background-color: rgb(231, 219, 229);
   padding: 10px 20px;
-  color: #adb44e;
+  color: #2d5092;
   width: 120px;
   display: flex;
   justify-content: center;

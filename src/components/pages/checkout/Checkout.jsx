@@ -5,7 +5,10 @@ export const Checkout = ({ envioDeFormulario, capturar, orderId }) => {
     <div>
       {orderId ? (
         <div>
-          <h1>Gracias... tu numero es {orderId} </h1>
+          <h1>
+            ¡Gracias por tu compra! Tu numero es {orderId} ¡No te olvides de
+            guardarlo!
+          </h1>
           <Link to="/">Seguir comprando</Link>
         </div>
       ) : (
