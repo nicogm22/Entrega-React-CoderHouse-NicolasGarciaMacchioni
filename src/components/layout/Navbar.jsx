@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import CartWidget from "../common/CartWidget";
 import "./Navbar.css";
-import { menuNavigation } from "../../router/menuNavigation";
 
 export const Navbar = () => {
   return (
@@ -11,11 +10,9 @@ export const Navbar = () => {
           StrongMAX
         </Link>
         <ul className="categories">
-          {menuNavigation.map(({ id, text, path }) => (
-            <Link key={id} to={path}>
-              {text}
-            </Link>
-          ))}
+          <Link to="/">Todas</Link>
+          <Link to="/category/maquinas">Maquinas</Link>
+          <Link to="/category/accesorios">Accesorios</Link>
         </ul>
         <CartWidget />
       </div>
